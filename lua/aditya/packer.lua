@@ -15,6 +15,9 @@ return require('packer').startup(function(use)
 			require("monokai-pro").setup()
 		end
 	}
-	
+
+	use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use ('ThePrimeagen/harpoon')
+	use ('mbbill/undotree')
+	use ('tpope/vim-fugitive')
 end)
