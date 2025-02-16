@@ -23,3 +23,4 @@ vim.keymap.set("n", "k", "kzz")
 
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
+vim.keymap.set("n", "<leader>t", vim.cmd.terminal)
