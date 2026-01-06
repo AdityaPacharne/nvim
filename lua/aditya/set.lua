@@ -35,7 +35,8 @@ vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
 
-
+-- Disabling Mouse
+vim.opt.mouse = ""
 
 
 
