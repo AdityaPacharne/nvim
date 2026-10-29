@@ -1,5 +1,3 @@
-vim.pack.add { "https://github.com/loctvl842/monokai-pro.nvim" }
-
 require("monokai-pro").setup({
   transparent_background = false,
   terminal_colors = true,
@@ -50,4 +48,7 @@ require("monokai-pro").setup({
   ---@param Config MonokaiProOptions
   ---@param hp Helper
 })
-vim.cmd("colorscheme monokai-pro")
+-- vim.cmd("colorscheme monokai-pro")
+vim.o.background = "dark"
+vim.g.gruvbox_contrast_dark = "hard"
+vim.cmd("colorscheme gruvbox")
