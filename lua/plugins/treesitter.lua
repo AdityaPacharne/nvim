@@ -3,6 +3,6 @@ require('nvim-treesitter').setup {
 }
 
 vim.api.nvim_create_autocmd('FileType', {
-  pattern = { 'go', 'c', 'lua', 'vim', 'vimdoc', 'query', 'markdown' },
+  pattern = { 'c', 'cpp', 'lua', 'markdown' },
   callback = function() vim.treesitter.start() end,
 })

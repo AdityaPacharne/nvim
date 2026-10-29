@@ -38,9 +38,3 @@ vim.g.mapleader = " "
 -- Disabling Mouse
 vim.opt.mouse = ""
 
-
-
-
-
-
-
