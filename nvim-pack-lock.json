@@ -1,9 +1,5 @@
 {
   "plugins": {
-    "gruvbox": {
-      "rev": "ef8864bb42bf244f0295d1c5a403b27e3d139695",
-      "src": "https://github.com/morhetz/gruvbox"
-    },
     "nvim-treesitter": {
       "rev": "19bdfc04f40ed2ccb3340591d125f759b0406875",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
