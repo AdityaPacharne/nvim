@@ -4,12 +4,8 @@
       "rev": "ef8864bb42bf244f0295d1c5a403b27e3d139695",
       "src": "https://github.com/morhetz/gruvbox"
     },
-    "monokai-pro.nvim": {
-      "rev": "a68e38b8e55d69a215d0f02598900a79c356da9d",
-      "src": "https://github.com/loctvl842/monokai-pro.nvim"
-    },
     "nvim-treesitter": {
-      "rev": "a2f694478be07f89c2d03cc17858a8745a400c4b",
+      "rev": "19bdfc04f40ed2ccb3340591d125f759b0406875",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
     }
   }
